@@ -33,7 +33,7 @@ export class OracleExample extends SmartContract {
     // Initialize contract state
 
     // Specify that caller should include signature with tx instead of proof
-
+    this.requireSignature();
   }
 
   @method verify(id: Field, creditScore: Field, signature: Signature) {
@@ -46,6 +46,6 @@ export class OracleExample extends SmartContract {
     // Check that the provided credit score is greater than 700
 
     // Emit an event containing the verified users id
-
+    
   }
 }
