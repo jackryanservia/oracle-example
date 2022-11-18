@@ -1,3 +1,3 @@
-[submodule "oracle/mina-credit-score-signer"]
-	path = oracle/mina-credit-score-signer
+[submodule "oracle"]
+	path = oracle
 	url = https://github.com/jackryanservia/mina-credit-score-signer
